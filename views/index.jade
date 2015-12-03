@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    // Make sure the following 3 tags come first
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+  body
+    title Youtube Annotator
+    iframe#player(type='text/html', width='640', height='390', src='http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com', frameborder='0')
+    script(src='thirdparty/youtube/youtubeAPI.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='thirdparty/bootstrap/js/bootstrap.min.js')
+    // Hue Control Files
+    script(src='thirdparty/jquery/jquery-2.1.4.min.js')
+    script(src='thirdparty/bootstrap/js/bootstrap.min.js')
+    script(src='thirdparty/spectrum/js/spectrum.js')
