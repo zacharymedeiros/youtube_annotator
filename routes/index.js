@@ -6,10 +6,24 @@ var router = express.Router();
 //  res.render('index', { title: 'Express' });
 // });
 
+//router.get('/', function(req, res) {
+//	res.render('index', {
+//		title: 'YouTubeAnnotator'
+//	});	
+//});
+
+
 router.get('/', function(req, res) {
 	res.render('index', {
 		title: 'YouTubeAnnotator'
 	});	
 });
 
+
+router.get('/ayy', function (req, res) {
+  res.render('index', title: 'Hey');
+});
+
 module.exports = router;
+
+

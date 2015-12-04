@@ -7,13 +7,23 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='')
     meta(name='author', content='')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    // Styles
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css')
+    link(href='public/stylesheets/bootstrap.min.css', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='public/stylesheets/style.css')
+    title!= title
   body
-    title Youtube Annotator
     iframe#player(type='text/html', width='640', height='390', src='http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com', frameborder='0')
-    script(src='thirdparty/youtube/youtubeAPI.js')
+    p Time 1
+    p Comment 1
+    p Time 2
+    p Comment 2
+    p Time 3
+    p Comment 3
+    script(src='public/javascripts/youtubeAPI.js')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
-    script(src='thirdparty/bootstrap/js/bootstrap.min.js')
-    // Hue Control Files
-    script(src='thirdparty/jquery/jquery-2.1.4.min.js')
-    script(src='thirdparty/bootstrap/js/bootstrap.min.js')
-    script(src='thirdparty/spectrum/js/spectrum.js')
+    script(src='public/javascripts/bootstrap.min.js')
+    script(src='public/javascripts/jquery-2.1.4.min.js')
+    script(src='public/javascripts/bootstrap.min.js')
