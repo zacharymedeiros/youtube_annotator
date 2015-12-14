@@ -20,9 +20,6 @@ router.get('/', function(req, res) {
 });
 
 
-router.get('/ayy', function (req, res) {
-  res.render('index', title: 'Hey');
-});
 
 module.exports = router;
 
